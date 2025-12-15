@@ -1,0 +1,19 @@
+# Ambiente virtual
+venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Datasets pesados (não versionar)
+dataset/raw/
+dataset/bronze/
+dataset/silver/
+dataset/gold/
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Configurações locais
+.env
